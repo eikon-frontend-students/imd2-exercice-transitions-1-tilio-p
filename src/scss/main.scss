@@ -59,3 +59,140 @@ video {
 // ---------------------------------------------
 // Votre code ici :
 // ---------------------------------------------
+
+//exercice1//
+
+.wrapper-hover .item:hover {
+  background: var(--pink);
+}
+
+//exercice2//
+
+.wrapper-transition .item {
+  transition-duration: 0.5s;
+}
+
+.wrapper-transition .item:hover {
+  background: var(--pink);
+}
+
+//exercice3//
+
+.wrapper-delay .item {
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.wrapper-delay .item:hover {
+  background: var(--pink);
+}
+
+//exercice4//
+
+.wrapper-two-properties .item {
+  transition-duration: 0.5s;
+}
+
+.wrapper-two-properties .item:hover {
+  background: var(--pink);
+  color: #000;
+}
+
+//exercice5//
+
+.wrapper-delay-one-property .item {
+  transition-duration: 0.5s;
+  transition: color 0.5s 0.5s;
+}
+
+.wrapper-delay-one-property .item:hover {
+  background: var(--pink);
+  color: #000;
+}
+
+//exercice6//
+
+.wrapper-parent .item {
+  transition-duration: 0.5s;
+}
+
+.wrapper-parent:hover .item {
+  background: var(--pink);
+}
+
+//exercice7//
+
+.wrapper-parent-delay .item {
+  transition-duration: 0.5s;
+}
+
+.wrapper-parent-delay .item:nth-child(2) {
+  transition-delay: 0.5s;
+}
+
+.wrapper-parent-delay .item:nth-child(3) {
+  transition-delay: 1s;
+}
+
+.wrapper-parent-delay:hover .item {
+  background: var(--pink);
+}
+
+//exercice8//
+
+.wrapper-parent-children.item {
+  transition-duration: 0.5s;
+}
+
+.wrapper-parent-children:hover {
+  background: var(--blue);
+}
+
+.wrapper-parent-children:hover .item {
+  background: var(--pink);
+}
+
+//exercice9//
+
+.wrapper-parent-children-delay .item {
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.wrapper-parent-children-delay:hover {
+  background: var(--blue);
+}
+
+.wrapper-parent-children-delay:hover .item {
+  background: var(--pink);
+}
+
+//exercice10//
+
+.wrapper-translate .item {
+  transition: transform 0.2s;
+}
+
+.wrapper-translate .item:hover {
+  transform: translateY(+20%);
+}
+
+//exercice11//
+
+.wrapper-rotate .item {
+  transition: transform 0.5s;
+}
+
+.wrapper-rotate .item:hover {
+  transform: rotate(90deg);
+}
+
+//exercice12//
+
+.wrapper-scale {
+  transition: transform 0.5s;
+}
+
+.wrapper-scale .item:hover {
+  transform: scale(120%);
+}
